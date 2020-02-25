@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        <p id="shirts">Shirt</p>
+    </h1>
+
+    <hr>
+    <h2><u>Sales</u></h2>
+    <p id='money'>Money:</p>
+    <p id='shirtsSold'>Shirts Sold:</p>
+
+    <hr>
+    <h2><u>Automation</u></h2>
+    <p id='stock'>Stock:</p>
+    <p id='autocottonstaus'>Auto Satus</p>
+
+    <hr>
+    <h2><u>Manufacturing</u></h2>
+
+    <input title="Click to make a shirt"
+            type="submit"
+            value='Make Paper Shirts'
+            onclick='makeShirt()'>
+
+    <p id='cotton'>Cotton Amount</p>
+    <button title="Click to buy Cotton"
+            id='buycotton'
+            onclick='buycotton()'>Buy Cotton</button>
+    <button title="Buys cotton automatically"
+            id='autobuyer' 
+            onclick='autocotton()'>Cotton Buyer Disenbled</button>
+    <button title="Click to buy the auto cotton buyer"
+            id='buyautocotton'
+            onclick='buyautocotton()'>Buy an auto Cotton Buyer</button>
+    &nbsp
+    <p id='aShirt'>Buy Auto Shirt Maker</p>
+    <button title="Clcik to buy auto shirt maker"
+            id='autoMaker'
+            onclick='autoShirt()'>Buy Auto Shirt</button>
+
+</body>
+</html>

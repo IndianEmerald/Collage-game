@@ -1,0 +1,39 @@
+/*hides buttons on the display*/
+#auto {
+    display: none;
+}
+
+#autoMaker {
+    display: none;
+}
+
+#autobuyer {
+    display: none;
+}
+
+/*colours and fonts for the text of the screen*/
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: black;
+    font-family: Arial;
+    margin-left: 0px;
+}
+
+h2 {
+    color: red;
+    font-family: Arial;
+    margin-left: 0px;
+}
+
+p {
+    color: black;
+    font-family: Arial;
+    margin-left: 0px;
+}
+
+button{
+    float: left;
+}
